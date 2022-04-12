@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .container{
+               display: grid;
+            grid-template-columns: auto auto auto ;
+               padding :10px;
+               grid-gap:4px;
+               background-color: blue;}
+
+            .container>div
+            { background-color: aquamarine;
+                text-align: center;
+                padding: 10px;}
+                .itemheader{
+                    width: 90px;
+                    grid-column :3;
+                }
+                .itemmenu{
+                    grid-area: 1/2/3/3;
+                }
+           
+            
+        </style>
+     
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <div class="container ">
+            <div class="header">header</div>
+            <div class="menu">menu</div>
+            <div class="main">main</div>
+            <div class="right">right</div>
+            <div class="footer">footer</div>
+            
+        </div>
+    </body>
+</html>
